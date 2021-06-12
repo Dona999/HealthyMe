@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Salads</title>
+            <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+       <style>
+           body
+           {
+              background-image:url(https://c0.wallpaperflare.com/preview/229/404/1003/food-and-drink-background-backgrounds-pasta.jpg);
+              background-size: 100%;
+              
+              
+              
+           }
+           #foto{
+            background-color: rgba(0, 0, 0, 0.521);
+            position: absolute;
+            margin: auto;
+            top: 0%;
+            left: 0%;
+            right: 0%;
+            bottom: 0%;
+            width: fit-content;
+            height: fit-content;
+               }
+		.image{
+			
+			position:relative;
+            width:175px;
+			
+
+			
+
+			}
+		.img_avocado{
+			display:block;
+			width:100%;
+            
+            height: 250px;
+			border-radius:40px;
+
+			}
+
+		.text{
+			position:absolute;
+			top:0;
+			left:0;	
+			color:#fff;
+			width:100%;
+			height:100%;
+			border-radius:40px;
+			background-color:rgb(0,0,0,0.6);
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			opacity:0;
+			transition:opacity 0.30s;
+			}
+		.text:hover{
+			opacity:1;
+
+
+			}
+		.text > *{
+
+			transform:translateY(-20px);
+			transition:transform 0.30s;
+			}
+
+                 .text:hover > *{
+
+			transform:translateY(0);
+
+			}
+
+
+
+
+		.image1{
+			
+			position:relative;
+			width:175px;
+            
+			margin-left:145px;
+			margin-top:-20px;
+			}
+		.img_cesaar{
+			display:block;
+			width:100%;
+            height: 250px;
+			border-radius:40px;
+
+			}
+
+		.text1{
+			position:absolute;
+			top:0;
+			left:0;	
+			color:#fff;
+			width:100%;
+			height:100%;
+			border-radius:40px;
+			background-color:rgb(0,0,0,0.6);
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			opacity:0;
+			transition:opacity 0.30s;
+			}
+		.text1:hover{
+			opacity:1;
+
+
+			}
+		.text1 > *{
+
+			transform:translateY(-20px);
+			transition:transform 0.30s;
+			}
+
+                 .text1:hover > *{
+
+			transform:translateY(0);
+
+			}
+
+		.image2{
+			
+			position:relative;
+			width:175px;
+			margin-left:290px;
+			margin-top:-20px;
+			}
+		.img_russian{
+			display:block;
+			width:100%;
+            height: 250px;
+			border-radius:40px;
+
+			}
+
+		.text2{
+			position:absolute;
+			top:0;
+			left:0;	
+			color:#fff;
+			width:100%;
+			height:100%;
+			border-radius:40px;
+			background-color:rgb(0,0,0,0.6);
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			opacity:0;
+			transition:opacity 0.30s;
+			}
+		.text2:hover{
+			opacity:1;
+
+
+			}
+		.text2 > *{
+
+			transform:translateY(-20px);
+			transition:transform 0.30s;
+			}
+
+                 .text2:hover > *{
+
+			transform:translateY(0);
+
+			}
+
+
+
+		.imageA{
+			
+			position:relative;
+			width:175px;
+			margin-left:86%;
+			margin-top:-710px;
+			}
+		.img_green{
+			display:block;
+			width:100%;
+            height: 250px;
+			border-radius:40px;
+
+			}
+
+		.textA{
+			position:absolute;
+			top:0;
+			left:0;	
+			color:#fff;
+			width:100%;
+			height:100%;
+			border-radius:40px;
+			background-color:rgb(0,0,0,0.6);
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			opacity:0;
+			transition:opacity 0.30s;
+			}
+		.textA:hover{
+			opacity:1;
+
+
+			}
+		.textA > *{
+
+			transform:translateY(-20px);
+			transition:transform 0.30s;
+			}
+
+                 .textA:hover > *{
+
+			transform:translateY(0);
+
+			}
+
+
+
+
+		.imageA1{
+			
+			position:relative;
+			width:175px;
+			margin-left:75%;
+                        margin-top:-17px;
+			}
+		.img_tofu{
+			display:block;
+			width:100%;
+            height: 250px;
+			border-radius:40px;
+
+			}
+
+		.textA1{
+			position:absolute;
+			top:0;
+			left:0;	
+			color:#fff;
+			width:100%;
+			height:100%;
+			border-radius:40px;
+			background-color:rgb(0,0,0,0.6);
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			opacity:0;
+			transition:opacity 0.30s;
+			}
+		.textA1:hover{
+			opacity:1;
+
+
+			}
+		.textA1 > *{
+
+			transform:translateY(-20px);
+			transition:transform 0.30s;
+			}
+
+                 .textA1:hover > *{
+
+			transform:translateY(0);
+
+			}
+
+
+
+
+
+
+
+		.imageA2{
+			
+			position:relative;
+			width:175px;
+			margin-left:64%;
+            margin-top:-15px;
+			}
+		.img_italian{
+			display:block;
+			width:100%;
+            height: 250px;
+			border-radius:40px;
+
+			}
+
+		.textA2{
+			position:absolute;
+			top:0;
+			left:0;	
+			color:#fff;
+			width:100%;
+			height:100%;
+			border-radius:40px;
+			background-color:rgb(0,0,0,0.6);
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			opacity:0;
+			transition:opacity 0.30s;
+			}
+		.textA2:hover{
+			opacity:1;
+
+
+			}
+		.textA2 > *{
+
+			transform:translateY(-20px);
+			transition:transform 0.30s;
+			}
+
+                 .textA2:hover > *{
+
+			transform:translateY(0);
+
+			}
+
+
+         .containerD{
+            position:absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100vh;
+            background-size: fit-content;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+
+h1{
+   text-align: center;
+   color:white;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+		
+           
+
+       </style> 
+
+    </head>
+    <body>
+       <h1>A salad is not a meal , it is a style</h1>
+<div class="containerD">
+
+</div>
+
+       <button id="foto" > <img  src="cooker.png" width="350px" height="350px"></button>
+      
+		<div class="image">
+				<img class="img_avocado" img src="https://www.cookingclassy.com/wp-content/uploads/2020/06/avocado-salad-7.jpg">
+			<div class="text">
+				<div class="title"><h1 style="font-size: medium;"> Avocado Salad</h1></div>
+				<div class="Ingredients"><p> <li>Avocado</li>
+               <li>Tomato</li>
+               <li>Olive oil</li>
+               <li>Onion</li>
+               <li>Cucumber</li></p></div>
+			</div>
+
+		</div>
+
+		<div class="image1">
+				<img class="img_cesaar" src="https://www.cookingclassy.com/wp-content/uploads/2018/06/caesar-salad-3.jpg">
+			<div class="text1">
+				<div class="title1"><h1 style="font-size: medium;"> Cesaar</h1></div>
+				<div class="Ingredients1"><p><ol>
+               <li>Cheese</li>
+               <li>Parmigiano</li>
+               <li>Bread</li>
+               <li>Lemon</li>
+               <li>Garlic</li>
+               <li>Romaine Lettuce</li>
+               <li>Anchovies</li>
+            </ol></p></div>
+			</div>
+
+		</div>
+
+		<div class="image2">
+				<img class="img_russian" img src="https://d1e3z2jco40k3v.cloudfront.net/-/media/mccormick-us/recipes/mccormick/r/800/russian-salad.jpg">
+			<div class="text2">
+				<div class="title2"><h1 style="font-size: medium;"> Russian</h1></div>
+				<div class="Ingredients2"><p> <li>Avocado</li>
+               <li>Potato</li>
+               <li>Mayonnaise</li>
+               <li>Egg</li>
+               <li>Carrot</li>
+               <li>Pickled cucumber</li>
+               <li>Salt</li>
+               <li>Boiled egg</li>
+               <li>Pea</li>
+            </p>
+            </div>
+			</div>
+
+		</div>
+
+		<div class="imageA">
+				<img class="img_green" img src="https://www.acouplecooks.com/wp-content/uploads/2019/05/Chopped-Salad-008.jpg">
+			<div class="textA">
+				<div class="titleA"><h1 style="font-size: medium;"> Green salad</h1></div>
+				<div class="IngredientsA"><p> 
+               <li>Lettuce</li>
+               <li>Tomato</li>
+               <li>Olive oil</li>
+               <li>Onion</li>
+               <li>Cucumber</li></p></div>
+			</div>
+
+		</div>
+
+		<div class="imageA1">
+				<img class="img_tofu" img src="https://static.onecms.io/wp-content/uploads/sites/44/2021/02/04/watercress-salad-honey-Balsamic-tofu-2000.jpg">
+			<div class="textA1">
+				<div class="titleA1"><h1 style="font-size: medium;"> Tofu salad</h1></div>
+				<div class="IngredientsA1"><p> 
+               <li>Hoisin sauce</li>
+               <li>Soy sauce</li>
+               <li>Maple syrup</li>
+               <li>Cherry tomatoes</li>
+               <li>Avocado</li></p></div>
+			</div>
+
+		</div>
+
+		<div class="imageA2">
+				<img class="img_italian" img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FSeries%2F2021-01-tonight-we-veg-italian-chopped-salad%2FItalianChoppedSaladOption9">
+			<div class="textA2">
+				<div class="titleA2"><h1 style="font-size: medium;">Italian salad</h1></div>
+				<div class="IngredientsA2"><p> 
+               <li>Cheese</li>
+               <li>Tomato</li>
+               <li>Onion</li>
+               <li>Vinegar</li></p></div>
+               <li>Garlic</li>
+               <li>Bell pepper</li>
+               <li>Parmigiano</li>
+               <li>Romain lettuce</li>
+               <li>Salt</li>
+			</div>
+
+		</div>
+       
+       
+       <script>
+          $(document).ready(function(){
+             $("#foto").click(function(){
+                $("#image").toggle("slide");
+
+
+             });
+          });
+          $(document).ready(function(){
+             $("#foto").click(function(){
+                $("#image1").toggle("slide");
+
+
+             });
+          });
+          $(document).ready(function(){
+             $("#foto").click(function(){
+                $("#image2").toggle("slide");
+
+
+             });
+          });
+          $(document).ready(function(){
+             $("#foto").click(function(){
+                $("#imageA").toggle("slide");
+
+
+             });
+          });
+          $(document).ready(function(){
+             $("#foto").click(function(){
+                $("#imageA1").toggle("slide");
+
+
+             });
+          });
+          
+         
+
+
+       </script>
+        
+    </body>
+    </html>

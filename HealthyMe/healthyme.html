@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <title>Healthy me </title>
+        <link rel="icon" href="logo.png" type="image/icon type">
+        <style>
+            *{
+			margin:0;
+			padding:0;
+
+		}
+		.nav{
+			width:500px;
+            margin-left: 60%;
+			height:50px;
+			background-color: rgba(224, 204, 181, 0.288);
+			margin-top:10px;
+
+			
+			
+}
+
+
+		.nav ul li{
+
+			float:left;
+			list-style:none;
+			margin-left: 50px;
+			position:relative;
+
+			}
+	
+		.nav ul li a{
+			
+			display:block;
+			font-family:arial;
+			color:rgba(0, 0, 0, 0.76);
+			font-size:17px;
+			padding-top:15px;
+			text-decoration:none;
+				
+
+			}
+
+		.nav ul li ul{
+			
+			display:none;
+			position:absolute;
+			background-color: #fff;
+			padding:15px;
+	
+
+			}
+		.nav ul li:hover ul{
+			
+			display:block;
+
+			}
+
+
+
+		.nav ul li ul li a{
+			
+			padding:6px 10px;
+			width:150px;
+
+			}
+           
+         .nav ul li ul li a:hover {
+			
+			background-color: rgba(255, 221, 128, 0.582);
+
+			}
+
+            html{
+            
+background-image:url("back.jpg");
+background-size: cover;
+background-position: center;
+height: 110vh;
+background-color: rgba(0, 0, 0, 0.644);
+            }
+            .logo{
+                display:inline-block;
+                position: absolute;
+                left:55%;
+                bottom: 715px;
+            }
+
+            .footer ul{
+
+              list-style-type: none;
+    
+            }
+            .footer li {
+                display: inline-block;
+
+            }
+            .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+               
+            }
+            
+            .button {
+  padding: 16px 30px;
+  font-size: 20px;
+  position: absolute;
+  top: 70%;
+  right: 42%;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #f8efcf80;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+}
+          .button1{      
+  padding: 16px 30px;
+  font-size: 20px;
+  position: absolute;
+  top: 70%;
+  left: 62%;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #f8efcf80;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+          }
+          .header
+          { font-size: 20px;
+            position: absolute;
+            float: right;
+          }
+          .gmap_canvas
+          {
+              float: right;
+              position: absolute;
+              top:80%;
+              
+          }
+
+          .button:hover {background-color: #fdcd485e}
+
+.button:active {
+  background-color: #fdcd485e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+
+.button1:hover {background-color: #fdcd485e}
+
+.button1:active {
+  background-color: #fdcd485e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.image{
+    float: right;
+    position: absolute;
+    top: -400px;
+    left: 800px;
+    
+}
+.image2{
+    float: right;
+    position: absolute;
+    top: -450px;
+    left: 1000px;
+    
+}
+.image3{
+    float: right;
+    position: absolute;
+    top: -450px;
+    left: 1150px;
+}
+
+          
+        </style>
+        
+    </head>
+    <body>
+        <div class="button">
+            <button class="btn "btn- style="border-radius:12px;background-color: rgba(245, 222, 179, 0.164);font-size: larger;font-family: cursive;"><b>I'm Hungry</b></button>
+            </div>
+            <div class="button1">
+
+                <button style="border-radius:12px;background-color: rgba(245, 222, 179, 0.164);font-size: larger;font-family:cursive;"><b>Show me more</b></button>
+            </div>
+       
+        
+        
+        <header>
+           
+            <div class="nav" > 
+                <ul>
+                    <li><a href="healthyme.html" >Home</a></li>
+                    <li><a href="aboutus.html" target="_blank">About us</a></li>
+                    <li><a href="#">Categories</a>
+                        
+                            <ul>
+                                
+                                <li style="font-size: 15px;"><a href="sweets.html" target="_blank">Desserts</a></li>
+                                <li style="font-size: 15px;"><a href="salads.html" target="_blank">Salads</a></li>
+                                <li style="font-size: 15px;"><a href="pasta.html">Pasta</a></li>
+                            </ul>   
+                            </li>
+                           
+                    <li><a href="#">Contact</a>
+                        <ul>
+                            <li style="font-size: 15px;"><a href="tel:+355 69 3674696">Call</a></li>
+                            
+                            <li style="font-size: 15px;"><a href="mailto:dhusha18@gmail.com">Mail</a></li>
+                        </ul>
+                    </li>
+                
+    
+                </ul>
+     
+            <div class="logo"> 
+            <img src="logo.png" alt="logo healthy me" width="80px" height="80px">
+            </div>
+        </header>
+        
+        
+    <div class="gmap_canvas"><iframe width="420px" height="200px" id="gmap_canvas" src="https://maps.google.com/maps?q=tirane&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <div class="image">
+            <img src="https://phdinbeingtwenty.com/wp-content/uploads/2017/04/food.jpg" alt="photo" style="height: 200ox;width: 200px;border-radius: 100px;">
+
+        </div>
+        <div class="image2">
+            <img src="https://www.verywellfit.com/thmb/9pCkYoYpZ-IaHRmrH8KnwybErLc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/budget-bytes-Drizzle-with-Dressing-5c09748dc9e77c0001829de0.jpg" alt="image"
+            style="height: 150px;width: 150px;border-radius: 100px;">
+        </div>
+        <div class="image3">
+            <img src="https://p.favim.com/orig/2018/09/05/aesthetic-healthy-drink-Favim.com-6243263.jpg" style="height: 80px;width: 80px;border-radius: 100px;">
+            
+        </div>
+        <script>
+            $(document).ready(function(){
+$('.button1').click(function(){
+   window.location.href='showmemore.html';
+});
+});
+$(document).ready(function(){
+$('.button').click(function(event){
+    alert("MAKE YOUR ORDER IN CONTACT SECTION :)")
+    
+});
+});  
+       
+        </script>
+   
+    </body>
+    <footer>
+        <div class="footer">
+        <ul>
+            <li><a href="https://www.facebook.com/"><img src="facebook icon .png" width="30px"height="30px"></li></a>
+            <li><a href="wwww.instagram.com"><img src="logo-instagram.png" width="30px" height="30px"></li></a>
+            <li><a href="wwww.gmail.com"><img src="gmail-logo.png" width="30px" height="30px"></li></a>
+        </ul>
+    </div>
+       </footer>
+</html>

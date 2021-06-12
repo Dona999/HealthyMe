@@ -1,0 +1,91 @@
+
+<html>
+    <head>
+        <title>Healthy me </title>
+        <style>
+            nav ul{
+                list-style-type: none;
+                
+            }
+            nav li{
+                display: inline-block;
+                text-align: end;
+                margin-left: 30px;
+
+            }
+            nav{
+                text-align: end;
+                width: 800px;
+                display: inline-block;
+                
+
+
+            }
+            nav a 
+            {
+                font-size: large;
+                color: rgba(0, 0, 0, 0.76);
+                padding-bottom: 2px;
+                text-decoration: none;
+            }
+            html{
+               
+background-image: url(healthyme/Fancy\ three.jpg);
+background-size: cover;
+background-position: center;
+height: 110vh;
+background-color: rgba(0, 0, 0, 0.644);
+            }
+            .logo{
+                display:inline-block;
+            }
+
+            .footer ul{
+
+              list-style-type: none;
+    
+            }
+            .footer li {
+                display: inline-block;
+
+            }
+            .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+               
+            }
+
+        </style>
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Contact</a></li>
+
+
+            </ul>
+            </nav>
+            <div class="logo"> 
+            <a href="#"><img src="healthyme/logo.png" alt="logo healthy me" width="80px" height="80px"></a>
+            </div>
+        </header>
+    </body>
+    <footer>
+        <div class="footer">
+        <ul>
+            <li><a href="https://www.google.com/gmail/about/"><img src="healthyme/facebook icon .png" width="50px"height="50px"></li></a>
+            <li><a href="wwww.instagram.com"><img src="healthyme/logo-instagram.png" width="50px" height="50px"></li></a>
+            <li><a href="wwww.gmail.com"><img src="healthyme/gmail-logo.png" width="50px" height="50px"></li></a>
+        </ul>
+    </div>
+       </footer>
+</html>
